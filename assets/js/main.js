@@ -159,19 +159,19 @@ function date() {
 }
 
 /*-------------------------  Preloader  -------------------------*/
+function pagePreloader() {
 
+    "use strict";
+    var preloader = $('#line-loader');
+    preloader.addClass('preloaded');
 
-
-
-
-
-
-
-   
- 
-
+    // setTimeout(function() {
+    // }, 800);
+    setTimeout(function() {
+        preloader.remove();
+    }, 1000);
     
-
+}
 
 /*-------------------------  Custom Scrollbar  -------------------------*/
 function customScrollbar() {
